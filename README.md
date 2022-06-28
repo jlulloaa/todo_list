@@ -35,7 +35,7 @@ This is a very preliminar work, because an app to organise and manage a list cou
 # How to Run
 Step-by-step guide to use the app...
 
-<h2 align=center> <a href="https://jlulloaa.github.io/todo_list">:scroll: Play with the app to create and manage a ToDo list writing_hand: </a> </h2>
+<h2 align=center> <a href="https://jlulloaa.github.io/todo_list">:scroll: Play with the app to create and manage a ToDo list :writing_hand: </a> </h2>
 
 
 # Roadmap of future improvements
