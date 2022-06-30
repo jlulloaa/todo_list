@@ -1,4 +1,16 @@
 /* Basic style for the ToDo list - Class Name in js file is "todo" */
+body {
+    margin: 0;
+    font-family: 'Arial';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.app {
+    background: #209cee;
+    padding: 30px;
+    height: 100vh;
+    
+}
 .todo-list {
     background: #273b87;
     border-radius: 4px;

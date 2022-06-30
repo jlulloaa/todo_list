@@ -33,8 +33,7 @@ function App(){
 
   }
   return(
-    <>
-    {/* In order to remove object from the list, we add an ID to each element,
+    /* In order to remove object from the list, we add an ID to each element,
         defined by its index, same as the key 
         Also, to remove an object, we create a function removeTodo which is triggered by 
         an onClick event on the element.
@@ -43,15 +42,18 @@ function App(){
         is the original <div> content:
         <div className="todo" key={i} id={i} onClick={removeTodo} >
          {todo.text}</div>
-        */}
-      {todos.map((todo, i) =>
-        <Todo index={i} key={i} todo={todo} remove={removeTodo}/>
-      )}
-      {/* Here we add the call to the functions in form.js, by calling the main function in there, 
-      with the additional attribute "addTodo" to manage a new element added: */}
-      <TodoForm addTodo={addTodo}/>
-      {/* REMEMBER to add the new file form.js in the main html file!! */}
-    </>
+        */
+	  <div className="app">
+		  <div className="todo-list">
+		      {todos.map((todo, i) =>
+		        <Todo index={i} key={i} todo={todo} remove={removeTodo}/>
+		      )}
+{/* Here we add the call to the functions in form.js, by calling the main function in there, 
+		      with the additional attribute "addTodo" to manage a new element added: */}
+		      <TodoForm addTodo={addTodo}/>
+		  </div>
+		</div>
+      /* REMEMBER to add the new file form.js in the main html file!! */
   );
 }
 
